@@ -1,0 +1,18 @@
+# Eclipse project files
+/.metadata/
+/.classpath
+/.project
+/.settings/
+/bin/
+/target/
+
+# Eclipse IDE workspace files
+/.launches
+/.gradle
+/.idea
+/.vscode
+
+# Files created by Eclipse for JDT (Java Development Tools) and related tools
+*.log
+*.bak
+*.swp
