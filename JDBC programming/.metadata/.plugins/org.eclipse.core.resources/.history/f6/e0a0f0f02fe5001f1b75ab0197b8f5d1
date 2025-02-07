@@ -1,0 +1,22 @@
+package com.jsp;
+
+import java.sql.DriverManager;
+
+public class ToLoadDriverClass {
+
+	public static void main(String[] args) 
+	{
+		try 
+		{
+			//step 1 to load Driver class
+			Class.forName("org.postgresql.Driver");
+			DriverManager.getConnection(null,null,null);
+			
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}
