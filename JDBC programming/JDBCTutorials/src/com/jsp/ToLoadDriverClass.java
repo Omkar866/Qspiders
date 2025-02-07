@@ -26,7 +26,8 @@ public class ToLoadDriverClass
 			stmt.execute(sql);
 			System.out.println(stmt.getUpdateCount()+" row inserted");
 			
-			
+			stmt.close();
+			conn.close();
 			
 			
 		} catch (ClassNotFoundException e) {
