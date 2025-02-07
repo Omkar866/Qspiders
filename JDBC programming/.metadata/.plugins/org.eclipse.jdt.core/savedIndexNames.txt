@@ -1,5 +1,4 @@
 INDEX VERSION 1.131+E:\Qspiders Adv Java\JDBC programming\.metadata\.plugins\org.eclipse.jdt.core
 28469790.index
 1865797976.index
-901590237.index
 151627855.index
