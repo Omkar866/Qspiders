@@ -20,7 +20,7 @@ public class ToLoadDriverClass
 			Class.forName("org.postgresql.Driver");
 			Connection conn=DriverManager.getConnection(url,un,password);
 			
-			String sql="insert into product values (2,'Radio',200)";
+			String sql="insert into product values (3,'Cricket Bat',500)";
 			
 			Statement stmt = conn.createStatement();
 			stmt.execute(sql);
